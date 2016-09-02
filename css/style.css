@@ -83,17 +83,17 @@ h1, h2, h3, h4, h5, h6 {
 
 ::-webkit-selection {
   color: #fff;
-  background: #52d3aa;
+  background: #1f3d82;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #52d3aa;
+  background: #1f3d82;
 }
 
 ::selection {
   color: #fff;
-  background: #52d3aa;
+  background: #1f3d82;
 }
 
 #fh5co-wrap {
