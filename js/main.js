@@ -37,7 +37,7 @@
 
 function authorPledge() {
     var x;
-    if (confirm("As an author submitting to the URJH, I agree to the following:\n(a) I agree not to tell any editor about my paper in any way.\n(b) I agree to each aspect of the review process. I understand that I may withdraw my submission at any time by emailing the Editor-in-Chief with my request to withdraw and with an explanation.\n(c) I agree to accept any decision made about my submission with respect and decency.\n(d) I agree to sign a publishing agreement if the URJH team selects my submission to be published.(e) I vow that everything (text, images, etc.) in my submission is my own and/or that I have permission to share it.") == true) {
+    if (confirm("As an author submitting to the URJH, I agree to the following:\n\n(a) I agree not to tell any editor about my paper in any way.\n\n(b) I agree to each aspect of the review process. I understand that I may withdraw my submission at any time by emailing the Editor-in-Chief with my request to withdraw and with an explanation.\n\n(c) I agree to accept any decision made about my submission with respect and decency.\n\n(d) I agree to sign a publishing agreement if the URJH team selects my submission to be published.(e) I vow that everything (text, images, etc.) in my submission is my own and/or that I have permission to share it.\n\nBy clicking 'OK' you are agreeing to all terms outlined above.") == true) {
         x = "Please click submit to finish uploading your work.";
 				document.getElementById('submitBtn').style.display = 'block';
     } else {
