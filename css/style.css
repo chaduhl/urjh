@@ -38,6 +38,10 @@ Submit stuff
 .control-group.success .fileupload .fileupload-preview{color:#468847;}
 .control-group.success .fileupload .thumbnail{border-color:#468847;}
 
+#submitBtn {
+  visibility: hidden;
+}
+
 /*=======================*/
 
 body {

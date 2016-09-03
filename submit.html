@@ -71,12 +71,12 @@
 				<nav class="fh5co-main-nav">
 					<ul>
 						<li><a href="index.html"><span>Home</span></a></li>
+						<li><a href="about.html"><span>About</span></a></li>
 						<li><a href="submissions.html"><span>Submission Process</span></a></li>
 						<li><a href="review.html"><span>Review Process</span></a></li>
-						<li><a href="about.html"><span>About</span></a></li>
-						<li><a href="contact.html"><span>Contact</span></a></li>
 						<li class="fh5co-active"><a href="submit.html"><span>Submit</span></a></li>
 						<li><a href="faq.html"><span>FAQ</span></a></li>
+						<li><a href="contact.html"><span>Contact</span></a></li>
 					</ul>
 				</nav>
 			</div>
@@ -141,7 +141,11 @@
 						    <span class="fileupload-preview"></span>
 						    <a href="#" class="close fileupload-exists" data-dismiss="fileupload" style="float: none">×</a>
 						  </div>
-							<div class="form-group">
+							<div class="form-group" onclick="authorPledge()">
+								<input type="" value="Agree to the Terms" class="btn btn-primary btn-md">
+							</div>
+							<p id="feedback"></p>
+							<div class="form-group" id="submitBtn">
 								<input type="submit" value="Submit" class="btn btn-primary btn-md">
 							</div>
 						</form>
@@ -151,7 +155,6 @@
 		</div>
 
 	</div> <!-- END fh5co-wrap -->
-
 
 	<footer id="fh5co-footer">
 		<div class="container">
